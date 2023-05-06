@@ -14,4 +14,4 @@ module load R/R-3.5.2
 RpackagesDir="R/library" # the R script will install packages here
 mkdir --parents "$RpackagesDir" # make directory & parents; no error if exists
 
-Rscript finalproject2.R "$RpackagesDir"
+Rscript finalproject3.R "$RpackagesDir"
